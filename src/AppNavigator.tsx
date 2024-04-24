@@ -13,6 +13,7 @@ import {
 import { CourseInfoScreen, HomeDesignCourse } from './design_course';
 import { IntroductionAnimationScreen } from './introduction_animation';
 import HotelHomeScreen from './hotel_booking/HotelHomeScreen';
+import Signup from './components/Signup';
 
 const Drawer = createDrawerNavigator();
 /**
@@ -60,8 +61,9 @@ export default () => {
         backgroundColor="transparent"
         barStyle="dark-content"
         translucent
-      />
+        />
 
+  
       <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name="MainDrawer" component={DrawerNavigator} />
 
